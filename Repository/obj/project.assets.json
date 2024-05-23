@@ -815,24 +815,28 @@
     "net6.0": [
       "Dapper >= 2.1.35",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.22",
-      "Npgsql >= 6.0.10",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.22"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fernando\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Proyectos\\api.optativo5-personas\\Repository\\Repository.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Optativo 5 segundo parcial\\Repository\\Repository.csproj",
       "projectName": "Repository",
-      "projectPath": "D:\\Proyectos\\api.optativo5-personas\\Repository\\Repository.csproj",
-      "packagesPath": "C:\\Users\\Fernando\\.nuget\\packages\\",
-      "outputPath": "D:\\Proyectos\\api.optativo5-personas\\Repository\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\Optativo 5 segundo parcial\\Repository\\Repository.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\Optativo 5 segundo parcial\\Repository\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Fernando\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -840,6 +844,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -873,10 +878,6 @@
             "target": "Package",
             "version": "[6.0.22, )"
           },
-          "Npgsql": {
-            "target": "Package",
-            "version": "[6.0.10, )"
-          },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[6.0.22, )"
@@ -893,25 +894,27 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.30, 6.0.30]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.30, 6.0.30]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.30, 6.0.30]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"Npgsql\" 6.0.10 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
-      "libraryId": "Npgsql",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

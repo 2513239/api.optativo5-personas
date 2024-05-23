@@ -7,9 +7,7 @@ namespace Repository.Migrations
 {
     public partial class MigracionInicial : Migration
     {
-        protected override void Up(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.CreateTable(
+        protected override void Up(MigrationBuilder migrationBuilder) => migrationBuilder.CreateTable(
                 name: "Personas",
                 columns: table => new
                 {
@@ -22,12 +20,8 @@ namespace Repository.Migrations
                 {
                     table.PrimaryKey("PK_Personas", x => x.Id);
                 });
-        }
 
-        protected override void Down(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.DropTable(
+        protected override void Down(MigrationBuilder migrationBuilder) => migrationBuilder.DropTable(
                 name: "Personas");
-        }
     }
 }

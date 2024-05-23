@@ -11,6 +11,9 @@ public class ContextoAplicacionDB : DbContext
     public DbSet<Persona> Personas { get; set; }
     public DbSet<Cuenta> Cuentas { get; set; }
 
+    public DbSet<Cliente> Clientes { get; set; }
+    public object Cliente { get; internal set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.ApplyConfiguration(new PersonaConfiguracion());

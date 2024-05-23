@@ -10,7 +10,6 @@
         "dependencies": {
           "Dapper": "2.1.35",
           "Microsoft.EntityFrameworkCore.Design": "6.0.22",
-          "Npgsql": "6.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
         },
         "runtime": {

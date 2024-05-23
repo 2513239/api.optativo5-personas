@@ -9,10 +9,7 @@ public class PersonaRepository2
 {
     private readonly ContextoAplicacionDB _contexto;
 
-    public PersonaRepository2(ContextoAplicacionDB contexto)
-    {
-        _contexto = contexto;
-    }
+    public PersonaRepository2(ContextoAplicacionDB contexto) => _contexto = contexto;
 
     public int Agregar(string nombre, string apellido, int anhoNacimiento)
     {

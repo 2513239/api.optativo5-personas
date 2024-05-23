@@ -39,3 +39,18 @@ D:\Proyectos\api.optativo5-personas\Repository\obj\Debug\net6.0\refint\Repositor
 D:\Proyectos\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.pdb
 D:\Proyectos\api.optativo5-personas\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
 D:\Proyectos\api.optativo5-personas\Repository\obj\Debug\net6.0\ref\Repository.dll
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\bin\Debug\net6.0\Repository.deps.json
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\bin\Debug\net6.0\Repository.runtimeconfig.json
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\bin\Debug\net6.0\Repository.dll
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\bin\Debug\net6.0\Repository.pdb
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.AssemblyInfo.cs
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.sourcelink.json
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.dll
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\refint\Repository.dll
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.pdb
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\Repository.genruntimeconfig.cache
+C:\Users\Admin\source\repos\Optativo 5 segundo parcial\Repository\obj\Debug\net6.0\ref\Repository.dll

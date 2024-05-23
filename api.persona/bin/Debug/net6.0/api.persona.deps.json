@@ -233,7 +233,6 @@
       "Repository/1.0.0": {
         "dependencies": {
           "Dapper": "2.1.35",
-          "Npgsql": "6.0.10",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22"
         },
         "runtime": {

@@ -9,10 +9,7 @@ namespace Repository.Repository.Referenciales
     public class PersonaRepository : IPersonaRepository
     {
         private PostgresConnection connection;
-        public PersonaRepository(string _connectionString)
-        {
-            connection = new PostgresConnection(_connectionString);
-        }
+        public PersonaRepository(string _connectionString) => connection = new PostgresConnection(_connectionString);
 
         public void add(PersonaModel persona) {
             try
@@ -57,9 +54,6 @@ namespace Repository.Repository.Referenciales
             return listado;
         }
 
-        public PersonaModel get(int id)
-        {
-            throw new NotImplementedException();
-        }
+        public PersonaModel get(int id) => throw new NotImplementedException();
     }
 }

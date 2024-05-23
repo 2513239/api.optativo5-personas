@@ -12,10 +12,7 @@ namespace Service.Logica.Referenciales
     public class PersonaService : IPersonaRepository
     {
         public PersonaRepository personaRepository;
-        public PersonaService(string _connectionString)
-        {
-            personaRepository = new PersonaRepository(_connectionString);
-        }
+        public PersonaService(string _connectionString) => personaRepository = new PersonaRepository(_connectionString);
 
         public void add(PersonaModel persona)
         {
@@ -25,10 +22,7 @@ namespace Service.Logica.Referenciales
             }
         }
 
-        public IEnumerable<PersonaModel> getAll()
-        {
-            return personaRepository.getAll();
-        }
+        public IEnumerable<PersonaModel> getAll() => personaRepository.getAll();
 
         public void update(PersonaModel persona)
         {
@@ -38,10 +32,7 @@ namespace Service.Logica.Referenciales
                 else throw new Exception("Id del registro incorrecto...");
             }
         }
-        public PersonaModel get(int id)
-        {
-            throw new NotImplementedException();
-        }
+        public PersonaModel get(int id) => throw new NotImplementedException();
 
         private bool validatePersona(PersonaModel persona)
         {

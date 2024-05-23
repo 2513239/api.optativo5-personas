@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{1F973F13-1905-46C4-9AFD-FD00E38BF0D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{1F973F13-1905-46C4-9AFD-FD00E38BF0D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{E24727EC-360B-4190-9607-C0BFBE05420A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{E24727EC-360B-4190-9607-C0BFBE05420A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.persona", "api.persona\api.persona.csproj", "{7378D766-7F36-49F0-82AD-B3CF9A6023F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.persona", "api.persona\api.persona.csproj", "{7378D766-7F36-49F0-82AD-B3CF9A6023F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
